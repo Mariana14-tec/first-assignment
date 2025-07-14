@@ -1,5 +1,4 @@
 
-
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -52,6 +51,28 @@ button{
     margin: 309px 268px 152px 268px;
     text-align: center; 
     align-items: center;   
+}
+.see-it{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.explore{
+    font-size: 24px;
+    color: #252432;
+}
+.pic{
+    width: 403px;
+    border-radius: 48px;
+}
+.action{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 116px 141px 116px 159px;
+}
+.action-contain{
+    width: 517px;
 }
 
 
