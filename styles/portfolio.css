@@ -74,6 +74,47 @@ button{
 .action-contain{
     width: 517px;
 }
+.joined{
+    background-color: #e9ecff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 80px 50px;
+    max-width: 1140px;
+    /* width: 1140px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 116px 141px 137px 160px;
+}
+.joined h2{
+    color: #252432;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 50px 142px 211px 142px;
+    margin-bottom: 30px;
+}
+.join-container{
+    display: flex;
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    margin: 50px 142px 50px 142px;    
+    /* text-align: center; */
+}
+.join-box{
+    /* margin-block: 150px; */
+    /* margin: 135px 142px 50px 142px; */
+    flex: auto;
+}
+.join-number{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.join-label{
+    font-size: 20px;
+    color: #6b7280;
+    margin-bottom: 6px;
+}
 
 
 
