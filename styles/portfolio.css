@@ -10,6 +10,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+body{
+  background-color: #f7f9fc;
+}
 header{
   background-image: url(../images/Hero-bg.png);
   background-size: auto;
@@ -67,19 +70,24 @@ button{
 }
 .action{
     display: flex;
+    /* gap: 220px; */
     justify-content:space-between;
     align-items: center;
     margin: 116px 141px 116px 159px;
+    /* max-width: 1140px; */
+    /* max-height: max-content; */
 }
 .action-contain{
     width: 517px;
+    gap: 220px;
 }
 .joined{
     background-color: #e9ecff;
     border-radius: 20px;
     text-align: center;
     padding: 80px 50px;
-    max-width: 1140px;
+    /* max-width: 1140px; */
+    /* max-height: max-content; */
     /* width: 1140px; */
     /* justify-content: center; */
     /* align-items: center; */
@@ -115,12 +123,19 @@ button{
     color: #6b7280;
     margin-bottom: 6px;
 }
+
 .main{
-  margin-top: 137px;
-  margin-bottom: 137px;
-  margin-right: 149px;
-  margin-left: 151px;
+  /* margin-top: 137px; */
+  /* margin-bottom: 137px; */
+  /* margin-right: 149px; */
+  /* margin-left: 151px; */
+  max-width: 1140px;
 }
+.review{
+  text-align: center;
+
+}
+
 .review h3{
   text-align: center;
   font-size: 42px;
@@ -142,7 +157,6 @@ button{
   padding: 24px;
   background-color: #fff;
   width: 280px;
-
 }
 .reviewer{
   display: flex;
@@ -171,7 +185,9 @@ button{
   text-align: center;
   /* max-width: 1140px; */
   background-color: #FFFFFF;
-  margin: 137px 151px 92px 149px;
+  /* background-color: #f4f7ff; */
+  margin: 137px 151px 92px 151px;
+  /* background-color: #f7f9fc; */
 }
 .focus-section h1{
   font-size: 50px;
@@ -180,12 +196,17 @@ button{
   /* margin-top: 71px; */
   /* margin-left: 312px; */
   /* margin-right: 312px; */
-  margin: 71px 312px 20px 312px;
+  padding: 71px 312px 20px 312px;
+  margin: 5px;
 }
 .focus-section p{
-  margin: 20px 326px;
+  margin: 5px 326px;
   color: rgba(0, 0, 0, 0.5);
   text-shadow:black;
+  /* gap: 10px; */
+}
+.focus-section h1 p button{
+  gap: 20px;
 }
 .focus-section button{
   margin: 20px 472px;
@@ -194,7 +215,54 @@ button{
   border-radius: 48px;
   margin: 20px 150px 71px 150px;
 }
-
+.contact{
+  display: flex;
+  gap: 115px;
+  align-items: flex-start;
+  justify-content: center;
+  /* width: 50%; */
+  padding: 92px 150px 14px 150px;
+  margin: 0 auto;
+  /* background-color:#f7f9fc ; */
+}
+.column1{
+  font-size: 48px;
+  font-weight: bold;
+  color: #000000;
+  padding: 200px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+.right-form{
+  height: 490px;
+  padding: 71px;
+}
+label{
+  font-size:18px ;
+  margin-bottom: 10px;
+  color: #000000;
+  margin-top: 8px;
+}
+input ,textarea{
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 19px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #FFFFFF;
+  border: 1px solid #e5e7eb;
+  color: #111827;
+  /* box-sizing: border-box; */
+  width: 497px;
+}
+input{
+  height: 50px;
+}
+textarea{
+  height: 135px;
+}
 
 
 
